@@ -1,0 +1,73 @@
+html {
+	background: url('https://images.unsplash.com/photo-1532954751162-d1b6d1f3b1a8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=60') no-repeat center fixed;     
+    background-size: cover;
+}
+
+h1 {
+	color: white;
+	font-family: 'Roboto', sans-serif;
+	text-align: center; 
+}
+h2{
+	color: white;
+	font-family: 'Roboto', sans-serif;
+	text-align: left;
+	padding-left: 50px;
+}
+h3{
+	color: white;
+	text-align: center;
+	font-family: Arial;
+}
+
+#infoSpaceship {
+	color: yellow;
+}
+
+.card {
+  background-color: white;
+  opacity: 0.9;
+  width: 200px;
+  text-align: center;
+  font-family: Arial, sans-serif;
+  padding-top: 10px;
+  margin: 10px 50px;
+
+}
+
+#quoteButton {
+	background-color: pink;
+	padding: 15px;
+	margin: 25px;
+	font-size: 1.1em;
+}
+
+.container {
+  padding: 1px 10px;
+}
+
+section {
+	display: inline-block;
+}
+
+#quoteElon {
+	color: #FFC0CB;
+	font-family: Arial;
+	text-align: center;
+}
+
+table, th, td {
+	border-style:solid;
+	border-color: #afdeee;
+	color: white;
+	width: 30%;
+	font-family: 'Roboto', sans-serif;
+	text-align: center;
+	margin-left:auto; 
+    margin-right:auto; 
+}
+
+#fuelLevel {
+	text-align: center;
+	font-family: Arial;
+}
