@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8" />
+		<title>Challenge I</title>
+		<link rel="stylesheet" type="text/css" href="styles/mystyle.css">
+		<link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+		<script src="scripts/main.js" defer></script>
+	</head>
+	<body>
+		<h1>Interplanetary Transport System Interface (ITSI)</h1><br>
+		<h3 id="infoSpaceship"></h3>
+
+	<section>
+			<h2>Ships parameters</h2>
+		  <div class="card">
+		      <img src="images/speed.png" alt="speed_icon" style="width:50px">
+			  <div class="container">
+			    <h4><b>Speed</b></h4>
+			    <p>15995km/hour</p>
+		  </div>
+      </section>
+      <section>
+			<h2>Supplies</h2>
+		  <div class="card">
+		      <img src="images/food.png" alt="food_icon" style="width:50px">
+			  <div class="container">
+			    <h4><b>Food</b></h4>
+			    <p>45.500 Kilos</p>
+		  </div>
+	  </section>
+	  <section>
+		  <div class="card">
+		      <img src="images/water.png" alt="water_icon" style="width:50px">
+			  <div class="container">
+			    <h4><b>Water</b></h4>
+			    <p>50.000 Liters</p>
+		  </div>
+ 	  </section>
+ 	  <section>
+			<h2>Metrics</h2>
+		  <div class="card">
+		      <img src="images/metrics.png" alt="metrics_icon" style="width:50px">
+			  <div class="container">
+			    <h4><b>Mars miles to earth miles converter</b></h4>
+			    <p>Today</p>
+			    <p id="converter"></p>
+		  </div>
+	  </section>
+	  <div id="quoteElon">
+	  	<button id="quoteButton">Today's quote</button>
+	  	<h4 id="elonQuote"></h4>
+      </div>
+      <div id="fuelBox">
+	  	<h3 id="fuelLevel">Fuel Level Log</h3>
+	  		<table>
+				  <tr>
+				    <th>Date</th>
+				    <th>Fuel consumption</th> 
+				    <th>Within limit</th>
+				  </tr>
+				  <tr>
+				    <td>05/05/2020</td>
+				    <td>98%</td>
+				    <td>Yes</td>
+				  </tr>
+				  <tr>
+				    <td>04/05/2020</td>
+				    <td id="moreFuel"></td>
+				    <td>No</td>
+				  </tr>
+				  <tr>
+				    <td>03/05/2020</td>
+				    <td id="rightFuel"></td>
+				    <td>Yes</td>
+				  </tr>
+			</table>
+      </div>
+	</body>
+</html>
